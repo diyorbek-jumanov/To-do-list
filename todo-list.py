@@ -51,5 +51,27 @@ def Create_list(todo):
         Checking(todo, idx)
 
     print(todo)
+
+def Clear(todo):
+    return todo.clear()
+
+def Count(todo):
+    return len(todo)
+
+def get_task_true(todo):
+    count = 0
+    for i in len(todo):
+        if i['task-state'] == True:
+            count += 1
+    return count
+
+def get_task_false(todo):
+    count = 0
+    for i in len(todo):
+        if i['task-state'] == False:
+            count += 1
+    return count
+
+
 lst = list()
 Create_list(lst)

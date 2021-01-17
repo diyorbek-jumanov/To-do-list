@@ -104,6 +104,13 @@ def Clear(todo):
     return todo.clear()
 
 def Count(todo):
+    '''
+    Counting task
+    Parametrs:
+        todo(list): Given a list
+    Returning:
+        int: Returning value
+    '''
     return len(todo)
 
 def get_task_true(todo):

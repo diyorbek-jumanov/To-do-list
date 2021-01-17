@@ -26,6 +26,14 @@ def Remove(todo, idx):
     return todo
 
 def Update(todo, idx):
+    '''
+    Update task
+    Parametrs:
+        todo(list): Given a list
+        idx(int) = Given a integer
+    Returning:
+        list: Returning value
+    '''
     title = input('qanday nomga o\'zgartirmoqchisiz? ')
     state = input('taskni holatini kiriting bajarilgan bolsa True aks holda False --> ')
     if state.lower() == 'true':

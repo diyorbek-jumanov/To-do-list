@@ -58,6 +58,13 @@ def Checking(todo, idx):
         print('task bajarilmagan')
 
 def Create_list(todo):
+    '''
+    Creating new list
+    Parametrs:
+        todo(list): Given a list
+    Returning:
+        list: Returning value
+    '''
     add_q = input('task qo\'shasizmi? ')
     if add_q.lower() == 'ha':
         empty_dict = dict()

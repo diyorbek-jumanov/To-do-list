@@ -1,4 +1,13 @@
 def Add(create_task, state, text):
+    '''
+    creating new task
+    Parametrs:
+        create_task(dict): Given a dictionary
+        state(bool): Given a boolen
+        text(str): Given a string
+    Returns:
+        dict: Returning value
+    '''
     create_task['task-name'] = text
     create_task['task-state'] = state
     return create_task

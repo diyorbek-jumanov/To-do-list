@@ -12,7 +12,16 @@ def Add(create_task, state, text):
     create_task['task-state'] = state
     return create_task
 
+
 def Remove(todo, idx):
+    '''
+    Removing task
+    Parametrs:
+        todo(list) = Given a list
+        idx(int) = Given a integer
+    Returning:
+        list: Returning value
+    '''
     del todo[idx]
     return todo
 

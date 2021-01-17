@@ -94,6 +94,13 @@ def Create_list(todo):
     print(todo)
 
 def Clear(todo):
+    '''
+    Clearing list
+    Parametrs:
+        todo(list): Given a list
+    Returning:
+        list: Returning value
+    '''
     return todo.clear()
 
 def Count(todo):

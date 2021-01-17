@@ -44,6 +44,14 @@ def Update(todo, idx):
     return todo
     
 def Checking(todo, idx):
+    '''
+    Checking list
+    Parametrs:
+        todo(list): Given a list
+        idx(int) = Given a integer
+    Returning:
+        list: Returning value
+    '''
     if todo[idx]['task-state'] == True:
         print('task bajarilgan')
     else:

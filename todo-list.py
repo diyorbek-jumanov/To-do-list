@@ -114,6 +114,13 @@ def Count(todo):
     return len(todo)
 
 def get_task_true(todo):
+    '''
+    Counting done tasks
+    Parametrs:
+        todo(list): Given a list
+    Returning:
+        int: Returning value
+    '''
     count = 0
     for i in len(todo):
         if i['task-state'] == True:

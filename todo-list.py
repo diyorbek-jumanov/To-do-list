@@ -128,6 +128,13 @@ def get_task_true(todo):
     return count
 
 def get_task_false(todo):
+    '''
+    Counting done tasks
+    Parametrs:
+        todo(list): Given a list
+    Returning:
+        int: Returning value
+    '''
     count = 0
     for i in len(todo):
         if i['task-state'] == False:
